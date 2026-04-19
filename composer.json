@@ -1,8 +1,8 @@
 {
-    "name": "tsp/backend-laravel",
+    "name": "nextgen360/backend-laravel",
     "type": "project",
-    "description": "TSP - TechSolutionsPro Laravel API Backend",
-    "keywords": ["laravel", "api", "tsp"],
+    "description": "NextGen360 Laravel API Backend",
+    "keywords": ["laravel", "api", "nextgen360"],
     "license": "proprietary",
     "require": {
         "php": "^8.2",

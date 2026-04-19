@@ -20,11 +20,11 @@ class SettingSeeder extends Seeder
             ['key' => 'smtp_user', 'value' => ''],
             ['key' => 'smtp_pass', 'value' => ''],
             ['key' => 'notify_email', 'value' => ''],
-            ['key' => 'from_name', 'value' => 'TSP Website'],
+            ['key' => 'from_name', 'value' => 'NextGen360 Website'],
 
             // Site Settings
             ['key' => 'site_phone', 'value' => '0115 990 3394'],
-            ['key' => 'site_email', 'value' => 'admin@tech-solutionspro.com'],
+            ['key' => 'site_email', 'value' => ' info.nextgen360@gmail.com'],
             ['key' => 'site_address', 'value' => 'Nottingham UK'],
 
             // Social Media
@@ -62,14 +62,14 @@ class SettingSeeder extends Seeder
             // Newsletter Popup
             ['key' => 'newsletter_popup_enabled', 'value' => 'true'],
             ['key' => 'newsletter_popup_heading', 'value' => 'Stay in the loop'],
-            ['key' => 'newsletter_popup_subtext', 'value' => 'Get notified about events, offers and the latest from Tech Solutions Pro.'],
+            ['key' => 'newsletter_popup_subtext', 'value' => 'Get notified about events, offers and the latest from NextGen360.'],
 
             // Privacy Policy
             ['key' => 'privacy_policy_title', 'value' => 'Privacy Policy'],
             ['key' => 'privacy_policy_updated', 'value' => 'April 2026'],
             ['key' => 'logo_light', 'value' => ''],
             ['key' => 'logo_dark', 'value' => ''],
-            ['key' => 'privacy_policy_content', 'value' => '<h2>Introduction</h2><p>Tech Solutions Pro ("we", "our", or "us") respects your privacy and is committed to protecting the personal information you share with us. This Privacy Policy explains what data we collect, how we use it, and the rights you have over your information.</p><h2>Information We Collect</h2><p>We collect information you provide directly (name, email, phone, message content) as well as information collected automatically (IP address, browser type, pages visited) via cookies and analytics tools.</p><h2>How We Use Your Information</h2><ul><li>Respond to enquiries and support requests.</li><li>Deliver the services you request.</li><li>Send newsletters and marketing communications (with consent).</li><li>Improve the performance and security of our website.</li></ul><h2>Cookies & Tracking</h2><p>Our site uses cookies to remember preferences and understand how visitors use the site. You can choose which categories to allow when you first visit.</p><h2>Sharing & Disclosure</h2><p>We do not sell your personal information. We may share data with trusted service providers who help us operate the site, and only to the extent necessary.</p><h2>Data Security</h2><p>We use industry-standard safeguards to protect your information from unauthorised access, alteration or disclosure.</p><h2>Your Rights</h2><ul><li>Access the personal information we hold about you.</li><li>Request correction or deletion of your information.</li><li>Withdraw consent for marketing communications.</li><li>Object to or restrict certain processing activities.</li></ul><h2>Changes to this Policy</h2><p>We may update this Privacy Policy from time to time. The "Last updated" date above will reflect the most recent changes.</p><h2>Contact Us</h2><p>If you have any questions about this Privacy Policy, please contact us using the details on our contact page.</p>'],
+            ['key' => 'privacy_policy_content', 'value' => '<h2>Introduction</h2><p>NextGen360 ("we", "our", or "us") respects your privacy and is committed to protecting the personal information you share with us. This Privacy Policy explains what data we collect, how we use it, and the rights you have over your information.</p><h2>Information We Collect</h2><p>We collect information you provide directly (name, email, phone, message content) as well as information collected automatically (IP address, browser type, pages visited) via cookies and analytics tools.</p><h2>How We Use Your Information</h2><ul><li>Respond to enquiries and support requests.</li><li>Deliver the services you request.</li><li>Send newsletters and marketing communications (with consent).</li><li>Improve the performance and security of our website.</li></ul><h2>Cookies & Tracking</h2><p>Our site uses cookies to remember preferences and understand how visitors use the site. You can choose which categories to allow when you first visit.</p><h2>Sharing & Disclosure</h2><p>We do not sell your personal information. We may share data with trusted service providers who help us operate the site, and only to the extent necessary.</p><h2>Data Security</h2><p>We use industry-standard safeguards to protect your information from unauthorised access, alteration or disclosure.</p><h2>Your Rights</h2><ul><li>Access the personal information we hold about you.</li><li>Request correction or deletion of your information.</li><li>Withdraw consent for marketing communications.</li><li>Object to or restrict certain processing activities.</li></ul><h2>Changes to this Policy</h2><p>We may update this Privacy Policy from time to time. The "Last updated" date above will reflect the most recent changes.</p><h2>Contact Us</h2><p>If you have any questions about this Privacy Policy, please contact us using the details on our contact page.</p>'],
         ];
 
         foreach ($settings as $setting) {
