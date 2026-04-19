@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
             .finally(() => setLoaded(true));
     }, []);
 
-    const company = "Tech Solutions Pro";
+    const company = "NextGen360";
     const title = site.privacy_policy_title || "Privacy Policy";
     const updated = site.privacy_policy_updated || "April 2026";
     const content = site.privacy_policy_content || "";

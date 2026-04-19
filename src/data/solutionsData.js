@@ -51,7 +51,7 @@ export const solutionsData = {
         hero: {
             title: "Microsoft Dynamics 365",
             description:
-                "All Tech Solutions Pro excels in delivering comprehensive custom product development services. From intuitive UI/UX design to modernization, cloud integration, and DevOps, our secure, scalable, and innovative solutions are tailored to meet your unique business requirements.",
+                "All NextGen360 excels in delivering comprehensive custom product development services. From intuitive UI/UX design to modernization, cloud integration, and DevOps, our secure, scalable, and innovative solutions are tailored to meet your unique business requirements.",
         },
         sideInfo: [
             {

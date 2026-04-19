@@ -25,7 +25,7 @@ export default function MaintenanceMode({ children }) {
         </div>
         <h1 className="text-3xl font-bold mb-3">We'll be back soon</h1>
         <p className="text-blue-200 max-w-md text-sm leading-relaxed">
-          Tech Solutions Pro is currently undergoing scheduled maintenance. We'll be back online shortly. Thank you for your patience.
+          NextGen360 is currently undergoing scheduled maintenance. We'll be back online shortly. Thank you for your patience.
         </p>
         <p className="text-blue-300 text-xs mt-6">tech-solutionspro.com</p>
       </div>

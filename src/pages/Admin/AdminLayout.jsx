@@ -124,7 +124,7 @@ export default function AdminLayout() {
               </div>
               <div>
                 <p className="font-bold text-sm leading-tight">TSP Admin</p>
-                <p className="text-[10px] text-blue-200 leading-tight">Tech Solutions Pro</p>
+                <p className="text-[10px] text-blue-200 leading-tight">NextGen360</p>
               </div>
             </div>
             <button

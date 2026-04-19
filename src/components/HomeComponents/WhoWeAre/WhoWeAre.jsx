@@ -75,7 +75,7 @@ const WhoWeAre = () => {
                     <div className="relative rounded-2xl overflow-hidden group">
                         <img
                             src={whoWeAre.image}
-                            alt="Tech Solutions Pro Team"
+                            alt="NextGen360 Team"
                             className="w-full h-auto max-h-[420px] object-cover rounded-2xl transition-transform duration-700 group-hover:scale-[1.03]"
                         />
                         {/* Overlay gradient */}

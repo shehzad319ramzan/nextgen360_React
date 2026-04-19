@@ -207,11 +207,11 @@ const Footer = () => {
                 <div className={styles.bottomBar}>
                     <div className={styles.logo}>
                         <Link to="/">
-                            {logoUrl && <img src={logoUrl} alt="Tech Solutions Pro" />}
+                            {logoUrl && <img src={logoUrl} alt="NextGen360" />}
                         </Link>
                     </div>
                     <p className={styles.copyright}>
-                        &copy; {new Date().getFullYear()} Tech Solutions Pro &bull; All Rights Reserved
+                        &copy; {new Date().getFullYear()} NextGen360 &bull; All Rights Reserved
                     </p>
                 </div>
             </div>

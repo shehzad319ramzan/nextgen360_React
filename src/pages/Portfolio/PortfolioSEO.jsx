@@ -15,7 +15,7 @@ function setLink(rel, href) {
 }
 
 export default function PortfolioSEO({ item, slug, coverUrl }) {
-  const title = `${item.title} | Portfolio | Tech Solutions Pro`;
+  const title = `${item.title} | Portfolio | NextGen360`;
   const canonical = `${SITE_URL}/portfolio/${slug}`;
 
   const plainDesc = stripHtml(item.description);
@@ -26,7 +26,7 @@ export default function PortfolioSEO({ item, slug, coverUrl }) {
     setMeta("robots", "index, follow");
     setLink("canonical", canonical);
     setMeta("og:type", "website", "property");
-    setMeta("og:site_name", "Tech Solutions Pro", "property");
+    setMeta("og:site_name", "NextGen360", "property");
     setMeta("og:title", title, "property");
     if (plainDesc) setMeta("og:description", plainDesc, "property");
     setMeta("og:url", canonical, "property");

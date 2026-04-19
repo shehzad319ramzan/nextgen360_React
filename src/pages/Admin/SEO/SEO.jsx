@@ -84,7 +84,7 @@ const SCHEMA_TEMPLATES = {
   Organization: JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Tech Solutions Pro",
+    "name": "NextGen360",
     "url": "https://tech-solutionspro.com",
     "logo": "https://tech-solutionspro.com/tsp.ico",
     "contactPoint": { "@type": "ContactPoint", "telephone": "+44-115-990-3394", "contactType": "customer service" },
@@ -93,7 +93,7 @@ const SCHEMA_TEMPLATES = {
   LocalBusiness: JSON.stringify({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Tech Solutions Pro",
+    "name": "NextGen360",
     "image": "https://tech-solutionspro.com/og-image.jpg",
     "telephone": "+44-115-990-3394",
     "address": { "@type": "PostalAddress", "streetAddress": "Unit 5D+E", "addressLocality": "Nottingham", "postalCode": "NG3 4GQ", "addressCountry": "GB" },
@@ -112,7 +112,7 @@ const SCHEMA_TEMPLATES = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "What services does Tech Solutions Pro offer?", "acceptedAnswer": { "@type": "Answer", "text": "We offer web development, digital marketing, SEO, PPC, mobile app development and more." } }
+      { "@type": "Question", "name": "What services does NextGen360 offer?", "acceptedAnswer": { "@type": "Answer", "text": "We offer web development, digital marketing, SEO, PPC, mobile app development and more." } }
     ]
   }, null, 2),
 };

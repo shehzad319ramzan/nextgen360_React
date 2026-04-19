@@ -32,7 +32,7 @@ const WhyChooseUsSection = ({ sliderData }) => {
     return (
         <div className={styles.whyChooseUsSectionContainer}>
             <h2 className={styles.sectionTitle}>
-                Why Choose <span className={styles.highlight}>Tech Solutions Pro</span> For
+                Why Choose <span className={styles.highlight}>NextGen360</span> For
                 <br />
                 <span className={styles.highlight}>Digital Marketing Services</span>
             </h2>

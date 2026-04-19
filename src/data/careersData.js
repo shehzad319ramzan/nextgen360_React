@@ -2,8 +2,8 @@ import WhyImg from "../assets/images/CareersImg/WhyImg.svg";
 
 export const careersContent = {
     heroTitle: "Your Success Story Starts Here",
-    whyTitle: "Why Choose Tech Solutions Pro for Your Next Career Move?",
-    whyDescription01: `At Tech Solutions Pro (TSP), we don’t just offer jobs, we develop careers. Whether you're a graphic designer, SEO specialist, or developer, we provide an engaging, fast-paced environment where skills are honed, knowledge is broadened, and careers flourish.`,
+    whyTitle: "Why Choose NextGen360 for Your Next Career Move?",
+    whyDescription01: `At NextGen360 (TSP), we don’t just offer jobs, we develop careers. Whether you're a graphic designer, SEO specialist, or developer, we provide an engaging, fast-paced environment where skills are honed, knowledge is broadened, and careers flourish.`,
     whyDescription02: `TSP is more than just a workplace, it’s a centre of innovation. With an expanding presence in the UK and Pakistan, we’ve successfully delivered high-profile projects for 40+ clients, and we’re growing rapidly. Here, you’ll work on pioneering solutions and gain exposure to real-world challenges that will elevate your expertise.`,
     whyDescription03: `We believe in investing in talent. Whether you’re a newcomer keen to learn or an experienced professional refining your craft, you’ll benefit from:`,
     whyPoints: [
@@ -12,7 +12,7 @@ export const careersContent = {
         "A Supportive and Progressive Work Culture – Thrive in a diverse, inclusive environment that champions innovation.",
         "Career Growth on a Global Scale – Be part of an organisation that’s expanding internationally, unlocking new opportunities for your future.",
     ],
-    whyDescription04: `At Tech Solutions Pro, we don’t just recruit talent, we cultivate it. Leap, make your mark, and shape your future with us.`,
+    whyDescription04: `At NextGen360, we don’t just recruit talent, we cultivate it. Leap, make your mark, and shape your future with us.`,
     whyImg: WhyImg,
 };
 

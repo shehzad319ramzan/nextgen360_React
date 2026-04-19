@@ -16,7 +16,7 @@ function setLink(rel, href) {
 
 export default function BlogSEO({ blog, slug }) {
   const schemaRef = useRef(null);
-  const title = `${blog.seo_title || blog.title} | Tech Solutions Pro`;
+  const title = `${blog.seo_title || blog.title} | NextGen360`;
   const desc = blog.seo_description || "";
   const canonical = `${SITE_URL}/blog/${slug}`;
   const img = blog.og_image ? (blog.og_image.startsWith("http") ? blog.og_image : `${BACKEND}${blog.og_image}`) : "";
@@ -28,7 +28,7 @@ export default function BlogSEO({ blog, slug }) {
     setMeta("robots", "index, follow");
     setLink("canonical", canonical);
     setMeta("og:type", "article", "property");
-    setMeta("og:site_name", "Tech Solutions Pro", "property");
+    setMeta("og:site_name", "NextGen360", "property");
     setMeta("og:title", blog.seo_title || blog.title, "property");
     if (desc) setMeta("og:description", desc, "property");
     setMeta("og:url", canonical, "property");

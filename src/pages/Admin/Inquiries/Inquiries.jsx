@@ -234,7 +234,7 @@ export default function Inquiries() {
             {/* Actions */}
             <div className="px-5 pb-5 pt-3 border-t border-gray-100 space-y-2">
               <a
-                href={`mailto:${selected.email}?subject=Re: Your inquiry — ${selected.category || "Tech Solutions Pro"}`}
+                href={`mailto:${selected.email}?subject=Re: Your inquiry — ${selected.category || "NextGen360"}`}
                 onClick={() => updateStatus(selected.id, "replied")}
                 className="flex items-center justify-center gap-2 w-full bg-[#0F4C8F] hover:bg-[#0d3d75] text-white py-2.5 rounded-xl text-xs font-semibold transition-colors"
               >

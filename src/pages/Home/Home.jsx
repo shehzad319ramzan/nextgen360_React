@@ -465,7 +465,7 @@
 //         <Testimonials
 //           googleReviews={googleReviews}
 //           googleRating={googleRating}
-//           businessName="Tech Solutions Pro | Digital Marketing & IT Services Nottingham UK"
+//           businessName="NextGen360 | Digital Marketing & IT Services Nottingham UK"
 //         />
 
 //         <AwardsCertifications data={data} />
@@ -560,7 +560,7 @@ const Home = () => {
           googleRating={googleRating}
           googleReviewUrl={googleReviewUrl}
           googleTotal={googleTotal}
-          businessName="Tech Solutions Pro | Digital Marketing & IT Services Nottingham UK"
+          businessName="NextGen360 | Digital Marketing & IT Services Nottingham UK"
         />
 
         <AwardsCertifications />

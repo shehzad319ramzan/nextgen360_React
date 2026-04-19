@@ -35,7 +35,7 @@ export const marketingData = {
     tag: "Digital Marketing Services",
     title: "Digital Marketing Services",
     description:
-      "At Tech Solutions Pro, we specialize in delivering dynamic and results-driven digital marketing services. From data-driven strategies and creative content creation to social media management and targeted campaigns, we help your brand thrive in the digital landscape. Our innovative and tailored solutions ensure maximum reach, engagement, and business growth.",
+      "At NextGen360, we specialize in delivering dynamic and results-driven digital marketing services. From data-driven strategies and creative content creation to social media management and targeted campaigns, we help your brand thrive in the digital landscape. Our innovative and tailored solutions ensure maximum reach, engagement, and business growth.",
   },
   heroSideInfo: [
     {

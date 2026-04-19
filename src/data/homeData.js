@@ -12,7 +12,7 @@ import WhoWeAreImg from "../assets/images/HomeImgs/WhoWeAreImg.svg";
 export const whoWeAre = {
   heading: "Who We Are",
   title: `Our Trusted Tech Partners For Modern Solutions`,
-  description: `Founded in 2019, Tech Solutions Pro has evolved into a powerhouse tech company. 
+  description: `Founded in 2019, NextGen360 has evolved into a powerhouse tech company. 
                 With offices in Nottingham and Islamabad, our team of IT specialists, designers, and developers 
                 devise cutting-edge solutions in web development and digital marketing. We amplify business growth and 
                 secure success through pioneering technology, delivering measurable results with unwavering commitment.`,
@@ -225,7 +225,7 @@ export const technologies = [
 import TestimonialImg01 from "../assets/images/HomeImgs/TestimonialImg01.png";
 
 export const testimonialsHeader = {
-  heading: `See what people say about Tech Solutions Pro`,
+  heading: `See what people say about NextGen360`,
   description: `Discover what our clients have to say about their experience with our services throughout the project. These testimonials offer genuine insight into our service quality and approach, helping you make a well-informed choice when selecting a software development partner.
 `,
   ratingText: `Exceeding Expectations, Delivering Excellence`,

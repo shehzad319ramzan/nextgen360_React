@@ -57,7 +57,7 @@ const Careers = () => {
           </motion.span>
           <motion.h1 className={styles.heroTitle} variants={fadeUp} initial="hidden" animate="visible" custom={1}>
             Build the Future With{" "}
-            <span className={styles.heroHighlight}>Tech Solutions Pro</span>
+            <span className={styles.heroHighlight}>NextGen360</span>
           </motion.h1>
           <motion.p className={styles.heroSub} variants={fadeUp} initial="hidden" animate="visible" custom={2}>
             We're looking for passionate people who want to build innovative software,

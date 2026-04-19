@@ -100,7 +100,7 @@ const Header = () => {
                 <div className={styles.logo}>
                     <Link to="/">
                         {(isDark ? logos.dark : logos.light) && (
-                            <img src={isDark ? logos.dark : logos.light} alt="Tech Solutions Pro" />
+                            <img src={isDark ? logos.dark : logos.light} alt="NextGen360" />
                         )}
                     </Link>
                 </div>

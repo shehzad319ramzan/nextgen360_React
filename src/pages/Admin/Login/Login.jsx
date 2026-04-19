@@ -34,7 +34,7 @@ export default function AdminLogin() {
           <div className="w-16 h-16 bg-white/15 rounded-2xl flex items-center justify-center mx-auto mb-6">
             <span className="text-white font-bold text-2xl">T</span>
           </div>
-          <h1 className="text-3xl font-bold text-white mb-3">Tech Solutions Pro</h1>
+          <h1 className="text-3xl font-bold text-white mb-3">NextGen360</h1>
           <p className="text-blue-200 text-sm max-w-xs leading-relaxed">
             Manage your website content, SEO, blog posts, and customer inquiries from one place.
           </p>
@@ -48,7 +48,7 @@ export default function AdminLogin() {
             <div className="w-12 h-12 bg-[#0F4C8F] rounded-xl flex items-center justify-center mx-auto mb-3">
               <span className="text-white font-bold text-xl">T</span>
             </div>
-            <h1 className="text-xl font-bold text-[#0F4C8F]">Tech Solutions Pro</h1>
+            <h1 className="text-xl font-bold text-[#0F4C8F]">NextGen360</h1>
           </div>
 
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
@@ -94,7 +94,7 @@ export default function AdminLogin() {
           </div>
 
           <p className="text-center text-xs text-gray-400 mt-6">
-            Tech Solutions Pro Admin Panel
+            NextGen360 Admin Panel
           </p>
         </div>
       </div>

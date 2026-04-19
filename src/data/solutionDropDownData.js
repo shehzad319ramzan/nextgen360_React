@@ -60,7 +60,7 @@ export const solutionDataArray = [
   section1: {
     title: "Workzen Is Your Smarter Workforce Management",
     description:
-      "Workzen Pro is the go-to tool for keeping track of your team’s shifts, timetables, attendance, and more, all in one user-friendly platform. Developed by Tech Solutions Pro (TSP), it helps you stay organised, save time, and ensure everything runs smoothly. By using our Workzen Pro product, it doesn't matter if you're managing a small team or overseeing a growing business, no matter how busy things get, Workzen Pro keeps everything under control, so you can focus on what really matters.",
+      "Workzen Pro is the go-to tool for keeping track of your team’s shifts, timetables, attendance, and more, all in one user-friendly platform. Developed by NextGen360 (TSP), it helps you stay organised, save time, and ensure everything runs smoothly. By using our Workzen Pro product, it doesn't matter if you're managing a small team or overseeing a growing business, no matter how busy things get, Workzen Pro keeps everything under control, so you can focus on what really matters.",
     image: workzenTitle
   },
 
@@ -140,14 +140,14 @@ export const solutionDataArray = [
   section1: {
     title: "Yaranty: Your Go-To Solution for Warranty and Claim Management",
     description:
-      "At Tech Solutions Pro, we've developed Yaranty, a simple yet powerful tool designed to help businesses in the automobile industry easily manage warranties and claims. Are you a service provider or a vehicle owner and need a tool that manages it for you? Our platform streamlines the whole process. With Yaranty, you can store and access warranty info for various vehicle brands, track claims in real time, and get valuable performance insights through detailed reports, all through an intuitive dashboard.",
+      "At NextGen360, we've developed Yaranty, a simple yet powerful tool designed to help businesses in the automobile industry easily manage warranties and claims. Are you a service provider or a vehicle owner and need a tool that manages it for you? Our platform streamlines the whole process. With Yaranty, you can store and access warranty info for various vehicle brands, track claims in real time, and get valuable performance insights through detailed reports, all through an intuitive dashboard.",
     image: yarantyTitle
   },
 
   section2: {
     title: "Optimising Warranty Management for the Automobile Industry",
     description:
-      "Yaranty, developed by Tech Solutions Pro, is the tool you've been looking for to optimise warranty and claim management in the automobile industry. We've created a platform that simplifies the whole process, making it easier for service providers and vehicle owners to track, manage, and access warranty information. With Yaranty, you get real-time insights, so you can stay on top of everything, ensuring smoother service and greater customer satisfaction. It's all about making your warranty management seamless and more efficient. Sign up now and experience the difference.",
+      "Yaranty, developed by NextGen360, is the tool you've been looking for to optimise warranty and claim management in the automobile industry. We've created a platform that simplifies the whole process, making it easier for service providers and vehicle owners to track, manage, and access warranty information. With Yaranty, you get real-time insights, so you can stay on top of everything, ensuring smoother service and greater customer satisfaction. It's all about making your warranty management seamless and more efficient. Sign up now and experience the difference.",
     sectionPoints: [
       "Simplifies warranty and claim management",
       "Real-time updates for full transparency",
@@ -187,14 +187,14 @@ export const solutionDataArray = [
   section1: {
     title: "Now Safar: The Smarter Way to Manage Visitors, Staff, and Contractors",
     description:
-      "At Tech Solutions Pro, we’re introducing our visitor and contractor management tool, simple yet powerful, designed to make managing visitors, staff, and contractors easier and more organised. It doesn’t matter whether you're running a busy office, a school, or a construction site; our platform streamlines the whole process for you. With Hilobby, you can easily manage check-ins and check-outs, track visitor activity, monitor staff attendance, and access detailed reports, all through an intuitive dashboard.",
+      "At NextGen360, we’re introducing our visitor and contractor management tool, simple yet powerful, designed to make managing visitors, staff, and contractors easier and more organised. It doesn’t matter whether you're running a busy office, a school, or a construction site; our platform streamlines the whole process for you. With Hilobby, you can easily manage check-ins and check-outs, track visitor activity, monitor staff attendance, and access detailed reports, all through an intuitive dashboard.",
     image: hillTitle
   },
 
   section2: {
     title: "Why Choose Hilobby?",
     description:
-      "Hilobby, developed by Tech Solutions Pro, is the solution you need to bring ease and clarity to managing visitors, staff, and contractors. We’ve built a platform that takes away the hassle of paper logs and messy attendance sheets. With Hilobby, you get real-time updates, clear records, and better oversight, helping you keep everything running smoothly and securely. It’s all about making your workplace more organised, welcoming, and efficient. Try Hilobby now and see the difference for yourself.",
+      "Hilobby, developed by NextGen360, is the solution you need to bring ease and clarity to managing visitors, staff, and contractors. We’ve built a platform that takes away the hassle of paper logs and messy attendance sheets. With Hilobby, you get real-time updates, clear records, and better oversight, helping you keep everything running smoothly and securely. It’s all about making your workplace more organised, welcoming, and efficient. Try Hilobby now and see the difference for yourself.",
     sectionPoints: [
       "Makes visitor and staff management simple",
       "Real-time updates for better oversight",
@@ -245,14 +245,14 @@ export const solutionDataArray = [
   section1: {
     title: "Plannza: The Smarter Way to Manage Visitors, Staff, and Contractors",
     description:
-      "At Tech Solutions Pro, we’re introducing our visitor and contractor management tool, simple yet powerful, designed to make managing visitors, staff, and contractors easier and more organised. It doesn’t matter whether you're running a busy office, a school, or a construction site; our platform streamlines the whole process for you. With Hilobby, you can easily manage check-ins and check-outs, track visitor activity, monitor staff attendance, and access detailed reports, all through an intuitive dashboard.",
+      "At NextGen360, we’re introducing our visitor and contractor management tool, simple yet powerful, designed to make managing visitors, staff, and contractors easier and more organised. It doesn’t matter whether you're running a busy office, a school, or a construction site; our platform streamlines the whole process for you. With Hilobby, you can easily manage check-ins and check-outs, track visitor activity, monitor staff attendance, and access detailed reports, all through an intuitive dashboard.",
     image: hillTitle
   },
 
   section2: {
     title: "Why Choose Hilobby?",
     description:
-      "Hilobby, developed by Tech Solutions Pro, is the solution you need to bring ease and clarity to managing visitors, staff, and contractors. We’ve built a platform that takes away the hassle of paper logs and messy attendance sheets. With Hilobby, you get real-time updates, clear records, and better oversight, helping you keep everything running smoothly and securely. It’s all about making your workplace more organised, welcoming, and efficient. Try Hilobby now and see the difference for yourself.",
+      "Hilobby, developed by NextGen360, is the solution you need to bring ease and clarity to managing visitors, staff, and contractors. We’ve built a platform that takes away the hassle of paper logs and messy attendance sheets. With Hilobby, you get real-time updates, clear records, and better oversight, helping you keep everything running smoothly and securely. It’s all about making your workplace more organised, welcoming, and efficient. Try Hilobby now and see the difference for yourself.",
     sectionPoints: [
       "Makes visitor and staff management simple",
       "Real-time updates for better oversight",

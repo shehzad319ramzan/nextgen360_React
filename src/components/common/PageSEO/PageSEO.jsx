@@ -1,9 +1,9 @@
 import { useEffect, useState, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
-const SITE_NAME = "Tech Solutions Pro";
+const SITE_NAME = "NextGen360";
 const SITE_URL = "https://tech-solutionspro.com";
-const DEFAULT_DESC = "Tech Solutions Pro is a leading IT company in Nottingham offering web development, digital marketing, SEO, PPC, and bespoke software solutions.";
+const DEFAULT_DESC = "NextGen360 is a leading IT company in Nottingham offering web development, digital marketing, SEO, PPC, and bespoke software solutions.";
 
 function setMeta(name, content, attr = "name") {
   let el = document.querySelector(`meta[${attr}="${name}"]`);

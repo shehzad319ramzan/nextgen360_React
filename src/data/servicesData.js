@@ -74,7 +74,7 @@ export const servicesData  = {
   webDevelopment: {
     hero: {
       title: "Web Development",
-      description: `At Tech Solutions Pro, we specialise in custom web development that blends creativity, 
+      description: `At NextGen360, we specialise in custom web development that blends creativity, 
                 functionality, and cutting-edge technology. Whether it’s a simple brochure website, a dynamic 
                 platform, or a complex eCommerce solution, we design and build secure, scalable, and high-performing 
                 websites that help your business stand out online. With expertise in front-end, back-end, and full-stack 
@@ -821,7 +821,7 @@ export const servicesData  = {
   productDesign: {
     hero: {
       title: "Product Design in the UK",
-      description: `Product design is about making things make sense. When people use your product, they should not have to stop and work things out. They should know where to go, what to do, and how to move forward without effort. At Tech Solutions Pro, we design digital products that feel clear from the first interaction and stay that way as they grow.`,
+      description: `Product design is about making things make sense. When people use your product, they should not have to stop and work things out. They should know where to go, what to do, and how to move forward without effort. At NextGen360, we design digital products that feel clear from the first interaction and stay that way as they grow.`,
     },
     sideInfo: [
       {

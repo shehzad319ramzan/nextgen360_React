@@ -108,7 +108,7 @@ const Home = () => {
         )}
         <div className={styles.heroFrame}>
           <div className={styles.heroContent}>
-            <h1 className={styles.heroTitle}>Tech Solutions Pro</h1>
+            <h1 className={styles.heroTitle}>NextGen360</h1>
             <p className={styles.heroSubtitle}>
               {data.initial_screen?.sub_title}
             </p>
@@ -154,7 +154,7 @@ const Home = () => {
         <Testimonials
           googleReviews={googleReviews}
           googleRating={googleRating}
-          businessName="Tech Solutions Pro | Digital Marketing & IT Services Nottingham UK"
+          businessName="NextGen360 | Digital Marketing & IT Services Nottingham UK"
         />
 
         <AwardsCertifications data={data} />

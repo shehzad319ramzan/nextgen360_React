@@ -68,7 +68,7 @@ export default function CaseStudyDetail() {
 
   useEffect(() => {
     if (!item) return;
-    const title = `${item.title} · Case Study · Tech Solutions Pro`;
+    const title = `${item.title} · Case Study · NextGen360`;
     document.title = title;
     const desc = stripHtml(item.summary) || stripHtml(item.challenge) || item.title;
     setMeta("description", desc.slice(0, 160));

@@ -44,9 +44,9 @@ export const aboutContent = {
     img: last,
     title: "Hamza Sharif",
     Subtitle: "CEO & Founder",
-    line: "Welcome to Tech Solutions Pro!",
+    line: "Welcome to NextGen360!",
     description1:
-      "At Tech Solutions Pro, we believe in the power of innovation to transform businesses. Our mission is to provide cutting-edge solutions that drive growth and efficiency for our clients. Every day, our dedicated team pushes the boundaries of technology to deliver exceptional results. We are committed to excellence, integrity, and continuous improvement. Together, let's embark on a journey to unlock your business's full potential and achieve extraordinary success.",
+      "At NextGen360, we believe in the power of innovation to transform businesses. Our mission is to provide cutting-edge solutions that drive growth and efficiency for our clients. Every day, our dedicated team pushes the boundaries of technology to deliver exceptional results. We are committed to excellence, integrity, and continuous improvement. Together, let's embark on a journey to unlock your business's full potential and achieve extraordinary success.",
     subtitle2: "Mission and Vision",
     description2:
       "Our goal is to position ourselves as the premier provider of comprehensive technology solutions, catering to the diverse needs of our customers. We aim to be recognized for our unwavering commitment to quality, unparalleled expertise, and a client-focused approach that forges enduring bonds.",
