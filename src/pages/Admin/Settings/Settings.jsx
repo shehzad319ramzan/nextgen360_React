@@ -321,7 +321,7 @@ export default function Settings() {
                   type="text"
                   value={emailForm.from_name}
                   onChange={(e) => setEmailForm({ ...emailForm, from_name: e.target.value })}
-                  placeholder="TSP Website"
+                  placeholder="NextGen360 Website"
                   className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#388ECA] focus:border-transparent"
                 />
               </div>

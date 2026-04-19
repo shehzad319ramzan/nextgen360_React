@@ -35,7 +35,7 @@ export const dataofsolutions = {
     hero: {
       title: "Workzen Is Your Smarter Workforce Management",
       description:
-        "Workzen Pro is the go-to tool for keeping track of your team’s shifts, timetables, attendance, and more, all in one user-friendly platform. Developed by NextGen360 (TSP), it helps you stay organised, save time, and ensure everything runs smoothly. By using our Workzen Pro product, it doesn't matter if you're managing a small team or overseeing a growing business, no matter how busy things get, Workzen Pro keeps everything under control, so you can focus on what really matters.",
+        "Workzen Pro is the go-to tool for keeping track of your team’s shifts, timetables, attendance, and more, all in one user-friendly platform. Developed by NextGen360, it helps you stay organised, save time, and ensure everything runs smoothly. By using our Workzen Pro product, it doesn't matter if you're managing a small team or overseeing a growing business, no matter how busy things get, Workzen Pro keeps everything under control, so you can focus on what really matters.",
       image: workzenslide1,
     },
     middle: {

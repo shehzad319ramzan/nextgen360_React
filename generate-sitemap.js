@@ -8,7 +8,7 @@ import { servicesData, solutionsData } from "./src/data/sitemap-data/data.js"; /
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const hostname = "https://techsolutionspro.co.uk"; // Replace with your actual domain
+const hostname = "https://nextgen360.net"; // Replace with your actual domain
 
 const staticRoutes = [
   { url: "/", changefreq: "weekly", priority: 1.0 },

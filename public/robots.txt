@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://techsolutionspro.co.uk/sitemap.xml
+Sitemap: https://nextgen360.net/sitemap.xml

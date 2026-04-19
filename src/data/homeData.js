@@ -205,7 +205,7 @@ import DotNetIcon from "../assets/images/HomeImgs/DotNetIcon.svg";
 
 export const technologiesHeader = {
   title: `Technologies`,
-  description: `At TechSolutionsPro, we use a range of advanced technologies to manage projects from start to finish. Take a look at some of the key tools and systems we work with at TSP.`,
+  description: `At NextGen360, we use a range of advanced technologies to manage projects from start to finish. Take a look at some of the key tools and systems we work with at NextGen360.`,
 };
 
 export const technologies = [

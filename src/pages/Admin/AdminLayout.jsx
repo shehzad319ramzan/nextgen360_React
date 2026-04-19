@@ -90,7 +90,7 @@ export default function AdminLayout() {
           <div className="w-8 h-8 bg-white/15 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-sm">T</span>
           </div>
-          <p className="font-bold text-sm">TSP Admin</p>
+          <p className="font-bold text-sm">NextGen360 Admin</p>
         </div>
         <button
           onClick={() => setMobileOpen(true)}
@@ -123,7 +123,7 @@ export default function AdminLayout() {
                 <span className="text-white font-bold text-sm">T</span>
               </div>
               <div>
-                <p className="font-bold text-sm leading-tight">TSP Admin</p>
+                <p className="font-bold text-sm leading-tight">NextGen360 Admin</p>
                 <p className="text-[10px] text-blue-200 leading-tight">NextGen360</p>
               </div>
             </div>

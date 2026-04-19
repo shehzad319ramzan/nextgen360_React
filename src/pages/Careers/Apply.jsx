@@ -276,7 +276,7 @@ const Apply = () => {
                     <textarea
                       value={form.cover_letter}
                       onChange={(e) => updateField("cover_letter", e.target.value)}
-                      placeholder="Tell us why you're a great fit for this role, your key skills, and what excites you about TSP..."
+                        placeholder="Tell us why you're a great fit for this role, your key skills, and what excites you about NextGen360..."
                       rows={5}
                       className={styles.textarea}
                     />

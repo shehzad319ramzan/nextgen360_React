@@ -26,7 +26,7 @@ export const footerContactBox = {
             Icon: FaFacebookF,
         },
         {
-            href: "https://www.instagram.com/tsp_techsolutionspro/",
+            href: "https://www.instagram.com/https://nextgen360.net",
             Icon: FaInstagram,
         },
         {

@@ -125,7 +125,7 @@ const Header = () => {
 
                     <Link to="/portfolio" style={navLinkStyle("/portfolio")}>Portfolio</Link>
                     <Link to="/blog" style={navLinkStyle("/blog")}>Blog</Link>
-                    <Link to="/careers" style={navLinkStyle("/careers")}>Join TSP</Link>
+                    <Link to="/careers" style={navLinkStyle("/careers")}>Join NextGen360</Link>
                     <Link to="/aboutus" style={navLinkStyle("/aboutus")}>About</Link>
 
                     <button className={styles.contactButton} onClick={() => { closeAll(); navigate("/contact"); }}>
@@ -224,7 +224,7 @@ const Header = () => {
 
                     <Link to="/portfolio" className={styles.mobileNavLink} onClick={closeAll}>Portfolio</Link>
                     <Link to="/blog" className={styles.mobileNavLink} onClick={closeAll}>Blog</Link>
-                    <Link to="/careers" className={styles.mobileNavLink} onClick={closeAll}>Join TSP</Link>
+                    <Link to="/careers" className={styles.mobileNavLink} onClick={closeAll}>Join NextGen360</Link>
                     <Link to="/aboutus" className={styles.mobileNavLink} onClick={closeAll}>About</Link>
 
                     <button className={styles.mobileContactButton} onClick={() => { closeAll(); navigate("/contact"); }}>

@@ -29,7 +29,7 @@ const PROCESS = [
   { icon: Search, title: "Apply Online", desc: "Browse our openings and submit your application with your resume and cover letter." },
   { icon: FileText, title: "Application Review", desc: "Our team carefully reviews every application and gets back to you within a few days." },
   { icon: UserCheck, title: "Interview", desc: "Meet the team through a friendly interview process focused on your skills and culture fit." },
-  { icon: HandshakeIcon, title: "Welcome Aboard", desc: "Receive your offer and join the TSP family with a smooth onboarding experience." },
+  { icon: HandshakeIcon, title: "Welcome Aboard", desc: "Receive your offer and join the NextGen360 family with a smooth onboarding experience." },
 ];
 
 const Careers = () => {
@@ -100,7 +100,7 @@ const Careers = () => {
         </div>
       </section>
 
-      {/* ─── Why TSP ─── */}
+      { }
       <section className={styles.perksSection}>
         <motion.div className={styles.sectionHeader} variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0}>
           <h2 className={styles.sectionTitle}>Why You'll Love Working Here</h2>

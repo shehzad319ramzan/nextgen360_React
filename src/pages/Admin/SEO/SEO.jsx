@@ -9,7 +9,7 @@ const PAGE_LABELS_ORDER = [
   { page: "solutions", label: "Solutions" },
   { page: "portfolio", label: "Portfolio" },
   { page: "blog", label: "Blog" },
-  { page: "careers", label: "Join TSP" },
+  { page: "careers", label: "Join NextGen360" },
   { page: "about", label: "About" },
   { page: "contact", label: "Contact Us" },
 ];

@@ -61,7 +61,7 @@ const BlogList = () => {
             Our Blog
           </motion.h1>
           <motion.p className={styles.heroSub} variants={fadeUp} initial="hidden" animate="visible" custom={2}>
-            Latest articles, case studies, and insights from the TSP team
+            Latest articles, case studies, and insights from the NextGen360 team
             to help you stay ahead in technology.
           </motion.p>
 

@@ -13,7 +13,7 @@ export default function Media() {
 
   const load = () => {
     setLoading(true);
-    const token = localStorage.getItem("tsp_token");
+    const token = localStorage.getItem("nextgen360_token");
     fetch(`${BASE}/media`, { headers: { Authorization: `Bearer ${token}` } })
       .then((r) => r.json())
       .then(setFiles)
@@ -28,7 +28,7 @@ export default function Media() {
     setUploading(true);
     const fd = new FormData();
     fd.append("file", file);
-    const token = localStorage.getItem("tsp_token");
+    const token = localStorage.getItem("nextgen360_token");
     try {
       const res = await fetch(`${BASE}/media/upload`, {
         method: "POST",
@@ -44,7 +44,7 @@ export default function Media() {
 
   const remove = async (filename) => {
     if (!confirm(`Delete ${filename}?`)) return;
-    const token = localStorage.getItem("tsp_token");
+    const token = localStorage.getItem("nextgen360_token");
     await fetch(`${BASE}/media/${filename}`, {
       method: "DELETE",
       headers: { Authorization: `Bearer ${token}` },

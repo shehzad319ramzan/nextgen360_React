@@ -8,11 +8,11 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const token = localStorage.getItem("tsp_token");
+    const token = localStorage.getItem("nextgen360_token");
     if (token) {
       api.get("/auth/me")
         .then(setUser)
-        .catch(() => localStorage.removeItem("tsp_token"))
+        .catch(() => localStorage.removeItem("nextgen360_token"))
         .finally(() => setLoading(false));
     } else {
       setLoading(false);
@@ -21,13 +21,13 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     const data = await api.post("/auth/login", { email, password });
-    localStorage.setItem("tsp_token", data.token);
+    localStorage.setItem("nextgen360_token", data.token);
     setUser(data.user);
     return data.user;
   };
 
   const logout = () => {
-    localStorage.removeItem("tsp_token");
+    localStorage.removeItem("nextgen360_token");
     setUser(null);
   };
 
