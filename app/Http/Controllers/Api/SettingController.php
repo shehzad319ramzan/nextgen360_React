@@ -58,7 +58,7 @@ class SettingController extends Controller
     {
         try {
             $dbPath = $this->settingService->getDatabasePath();
-            $filename = 'nextgen360-backup-' . date('Y-m-d') . '.db';
+            $filename = 'tsp-backup-' . date('Y-m-d') . '.db';
 
             return response()->download($dbPath, $filename, [
                 'Content-Type' => 'application/octet-stream',

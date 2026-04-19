@@ -32,7 +32,7 @@ class AuthService
             throw new Exception('Invalid credentials', 401);
         }
 
-        $token = $user->createToken('nextgen360 Personal Access Token')->accessToken;
+        $token = $user->createToken('TSP Personal Access Token')->accessToken;
 
         return [
             'token' => $token,

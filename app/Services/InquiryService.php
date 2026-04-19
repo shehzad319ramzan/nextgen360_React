@@ -56,7 +56,7 @@ class InquiryService
         $smtpUser = $this->settingRepo->get('smtp_user');
         $smtpPass = $this->settingRepo->get('smtp_pass');
         $notifyEmail = $this->settingRepo->get('notify_email');
-        $fromName = $this->settingRepo->get('from_name') ?? 'nextgen360 Website';
+        $fromName = $this->settingRepo->get('from_name') ?? 'TSP Website';
 
         if (!$smtpUser || !$notifyEmail) {
             return;
