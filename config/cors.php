@@ -18,7 +18,7 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        env('FRONTEND_URL', 'http://localhost:5173'),
+        'https://frontend.nextgen360.net',
     ],
 
     'allowed_origins_patterns' => [],
