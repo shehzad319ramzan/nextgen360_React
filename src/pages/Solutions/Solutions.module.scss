@@ -1,0 +1,32 @@
+.solutionsContainer {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 60px 40px;
+
+    .infoSectionContainer {
+        background-color: rgba(56, 142, 202, 0.1019607843);
+        border-radius: 20px;
+        padding: 40px 60px;
+        margin: 60px 0;
+    }
+}
+
+// Responsive Behavior - Media Queries
+@media (max-width: 767px) {
+    .solutionsContainer {
+        padding: 40px 30px;
+
+        .infoSectionContainer {
+            padding: 30px;
+            margin: 40px 0;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .solutionsContainer {
+        .infoSectionContainer {
+            padding: 30px 20px;
+        }
+    }
+}

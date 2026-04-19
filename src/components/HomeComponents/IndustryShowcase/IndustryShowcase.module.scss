@@ -1,0 +1,172 @@
+.industryShowcase {
+    position: relative;
+    text-align: center;
+    background-image: url("../../../assets/images/HomeImgs/DiscoverBgImg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 860px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .industryContent {
+        max-width: 900px;
+        padding: 20px 40px;
+        margin: 0 auto;
+
+        .sectionHeading {
+            font-size: 18px;
+            font-weight: 600;
+            color: #388ECA;
+            margin-bottom: 16px;
+        }
+
+        .sectiontext {
+            text-align: start;
+            font-size: 14px;
+            font-weight: 500;
+            color: #1E1E1EB2;
+        }
+
+        .discoverButton {
+            margin-top: 24px;
+            background-color: #0F4C8F;
+            color: #FFFFFF;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 30px;
+            border-radius: 20px;
+            cursor: pointer;
+
+            &:hover {
+                font-weight: 600;
+            }
+        }
+    }
+
+    .industryIcons {
+        .industryIcon {
+            position: absolute;
+            animation: floatUpDown 2s infinite ease-in-out alternate;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+
+            img {
+                width: 80px;
+                max-width: 100%;
+                height: auto;
+            }
+
+            .industryTitle {
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+// Up-Down Animation
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+@media (max-width: 1279px) {
+    .industryShowcase {
+        height: 600px;
+
+        .industryContent {
+            max-width: 700px;
+        }
+
+        .industryIcons {
+            .industryIcon {
+                img {
+                    width: 60px;
+                }
+
+                .industryTitle {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .industryShowcase {
+        height: 450px;
+
+        .industryContent {
+            max-width: 550px;
+
+            .sectionHeading {
+                font-size: 16px;
+            }
+
+            .discoverButton {
+                font-size: 16px;
+            }
+        }
+
+        .industryIcons {
+            .industryIcon {
+                img {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .industryShowcase {
+        height: 420px;
+
+        .industryContent {
+            max-width: 450px;
+            padding: 20px;
+
+            .sectiontext {
+                font-size: 12px;
+                text-align: center;
+            }
+
+            .discoverButton {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+        }
+
+        .industryIcons {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 620px) {
+    .industryShowcase {
+        height: 400px;
+    }
+}
+
+@media (max-width: 590px) {
+    .industryShowcase {
+        height: 350px;
+    }
+}
+
+@media (max-width: 516px) {
+    .industryShowcase {
+        height: 310px;
+    }
+}

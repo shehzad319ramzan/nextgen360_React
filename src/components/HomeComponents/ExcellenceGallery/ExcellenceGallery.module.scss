@@ -1,0 +1,21 @@
+.excellenceContainer {
+    background-color: #D0D0D033;
+    padding: 40px;
+    margin-top: 20px;
+
+    .galleryWrapper {
+        display: flex;
+        gap: 30px;
+        max-width: 1540px;
+        margin: auto;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .excellenceContainer {
+        padding: 30px;
+    }
+}

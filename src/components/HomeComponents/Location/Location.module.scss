@@ -1,0 +1,76 @@
+.locationWrapper {
+    padding: 40px;
+
+    .locationSection {
+        max-width: 1500px;
+        margin: auto;
+        text-align: center;
+
+        .mapWrapper {
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            .mapImage {
+                width: 100%;
+                max-width: 100%;
+                min-height: 300px;
+                height: auto;
+            }
+
+            .pin {
+                position: absolute;
+                width: 28px;
+                height: auto;
+            }
+
+            .pin1 {
+                top: 44%;
+                left: 64%;
+            }
+
+            .pin2 {
+                top: 29%;
+                left: 54%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .locationWrapper {
+        .locationSection {
+            .mapWrapper {
+                .pin {
+                    width: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .locationWrapper {
+        .locationSection {
+            .mapWrapper {
+                .pin {
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .locationWrapper {
+        padding: 30px;
+
+        .locationSection {
+            .mapWrapper {
+                .pin {
+                    width: 16px;
+                }
+            }
+        }
+    }
+}

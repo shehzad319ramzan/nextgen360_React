@@ -1,0 +1,131 @@
+.awardsWrapper {
+    padding: 40px;
+
+    .awardsSection {
+        max-width: 1500px;
+        margin: auto;
+        text-align: center;
+
+        .connectorGrid {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            overflow-x: auto;
+            padding-bottom: 20px;
+
+            .topRow {
+                display: flex;
+                justify-content: center;
+                border: 1px solid #D0D0D0;
+                border-radius: 20px;
+            }
+
+            .bottomRow {
+                display: flex;
+                justify-content: center;
+                border: 1px solid #D0D0D0;
+                border-top: none;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+
+            .box {
+                width: 220px;
+                height: 250px;
+                border-right: 1px solid #D0D0D0;
+
+                &:last-child {
+                    border-right: none;
+                }
+            }
+
+            .connectorLines {
+                display: flex;
+                justify-content: space-between;
+                gap: 220px;
+                position: relative;
+
+                .lineGroup {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .blueDot {
+                    width: 8px;
+                    height: 8px;
+                    background-color: #0F4C8F;
+                    position: absolute;
+                    bottom: -4px;
+                }
+            }
+        }
+    }
+
+    .mobileFeaturedImage {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .awardsWrapper {
+        .awardsSection {
+            .connectorGrid {
+                .box {
+                    width: 180px;
+                    height: 210px;
+                }
+
+                .connectorLines {
+                    gap: 180px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .awardsWrapper {
+        padding: 30px;
+
+        .awardsSection {
+            .connectorGrid {
+                margin-top: 30px;
+
+                .box {
+                    width: 130px;
+                    height: 160px;
+                }
+
+                .connectorLines {
+                    gap: 130px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .awardsWrapper {
+        .awardsSection {
+            .connectorGrid {
+                .box {
+                    width: 110px;
+                    height: 140px;
+                }
+
+                .connectorLines {
+                    gap: 110px;
+                }
+            }
+        }
+    }
+}

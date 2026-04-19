@@ -1,0 +1,51 @@
+.clientsSlider {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: auto;
+    max-width: 1600px;
+
+    .clientHeading {
+        font-size: 14px;
+        font-weight: 700;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .sliderWrapper {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+
+        .clientLogo {
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            height: 50px;
+
+            img {
+                max-height: 50px;
+                max-width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+// Responsive Behavior - Media Queries
+@media (max-width: 991px) {
+    .clientsSlider {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .clientsSlider {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

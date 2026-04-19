@@ -1,0 +1,82 @@
+.statsContainer {
+    background: linear-gradient(90.05deg, #388ECA 1.34%, rgba(56, 142, 202, 0.8) 25.33%, rgba(56, 142, 202, 0.6) 49.32%, rgba(56, 142, 202, 0.4) 87.7%, rgba(56, 142, 202, 0.03) 97.29%);
+    color: #FFFFFF;
+    background-image: url("../../../assets/images/ServicesSolutionsImgs/ServicesStatsBgImg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 700;
+
+    .statsContent {
+        padding: 200px 60px 140px;
+    }
+
+    .statsGrid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 40px 60px;
+        justify-items: start;
+        border-top: 1px solid;
+        border-image-source: linear-gradient(90deg, #FFFFFF 0%, rgba(153, 153, 153, 0.2) 100%);
+        border-image-slice: 1;
+
+        .statItem {
+            .statValue {
+                margin-bottom: 4px;
+            }
+
+            .statLabel {
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+// Responsive Behavior - Media Queries
+@media (max-width: 1023px) {
+    .statsContainer {
+        font-size: 32px;
+
+        .statsGrid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .statsContainer {
+        font-size: 24px;
+
+        .statsContent {
+            padding: 140px 40px 60px;
+        }
+
+        .statsGrid {
+            padding: 30px 40px;
+
+            .statItem {
+                .statLabel {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .statsContainer {
+        .statsContent {
+            padding: 100px 30px 50px;
+        }
+
+        .statsGrid {
+            padding: 30px;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 15px;
+        }
+    }
+}

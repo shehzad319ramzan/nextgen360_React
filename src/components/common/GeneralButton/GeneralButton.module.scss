@@ -1,0 +1,88 @@
+.generalButton {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 500;
+    padding: 10px 20px 10px 40px;
+    border-radius: 20px;
+    box-shadow: 8px 6px 4px 0px #00000040;
+    cursor: pointer;
+    transition: gap 0.3s ease-in-out;
+
+    .customIcon {
+        transform: scale(1.4);
+        transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    &:hover {
+        gap: 20px;
+        font-weight: 600;
+
+        .customIcon {
+            color: #0a1f3f;
+        }
+    }
+
+    &.default {
+        background-color: #0F4C8F;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+
+    &.white {
+        background-color: #FFFFFF;
+        color: #0F4C8F;
+        font-size: 18px;
+        padding: 10px 20px;
+        box-shadow: 10px 8px 4px 0px #00000040;
+
+        &:hover {
+            .customIcon {
+                color: #0F4C8F;
+            }
+        }
+    }
+}
+
+// Responsive Behavior - Media Queries
+@media (max-width: 767px) {
+    .generalButton {
+        padding: 10px 20px 10px 30px;
+        gap: 30px;
+
+        .customIcon {
+            transform: scale(1.2);
+        }
+
+        &:hover {
+            gap: 15px;
+        }
+
+        &.default {
+            font-size: 14px;
+        }
+
+        &.white {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .generalButton {
+        padding: 10px 10px 10px 14px;
+        gap: 20px;
+
+        &:hover {
+            gap: 10px;
+        }
+
+        &.default {
+            width: 100%;
+        }
+
+        &.white {
+            padding: 8px 14px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.digitalMarketingContainer {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    color: #1E1E1E;
+}
+
+.chooseUsWrapper {
+    background-color: #D0D0D033;
+}
+
+// Responsive Behavior - Media Queries
+@media (max-width: 767px) {
+    .digitalMarketingContainer {
+        padding: 40px 30px;
+    }
+}

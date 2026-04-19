@@ -1,0 +1,64 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    position: relative;
+}
+
+// Base Box Styles
+.box {
+    background-color: #388ECA;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Define sizes
+.large {
+    width: 80px;
+    height: 80px;
+}
+
+.medium {
+    width: 40px;
+    height: 40px;
+}
+
+.small {
+    width: 20px;
+    height: 20px;
+}
+
+// Centering towards the middle
+.box1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: end;
+    justify-self: end;
+}
+
+.box2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    align-self: start;
+    justify-self: end;
+}
+
+.box3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    align-self: start;
+    justify-self: end;
+}
+
+.box4 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-self: start;
+    justify-self: start;
+}
