@@ -3,26 +3,19 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\OAuthClient;
 use Illuminate\Support\Facades\DB;
 
 class PassportClientSeeder extends Seeder
 {
     public function run(): void
     {
-        // Create personal access client if it doesn't exist
-        // This uses the oauth_personal_access_clients table
-        DB::table('oauth_personal_access_clients')->firstOrCreate(
-            ['client_id' => 1],
-            [
-                'client_id' => 1,
-                'provider' => 'users',
-            ]
-        );
-
-        // Also ensure oauth_clients has the personal access client
-        DB::table('oauth_clients')->firstOrCreate(
-            ['id' => 1],
-            [
+        // Check if oauth_clients table exists and has data
+        $existingClient = DB::table('oauth_clients')->where('personal_access_client', 1)->first();
+        
+        if (!$existingClient) {
+            DB::table('oauth_clients')->insert([
+                'id' => 1,
                 'user_id' => null,
                 'name' => 'TSP Personal Access Client',
                 'secret' => '',
@@ -31,7 +24,17 @@ class PassportClientSeeder extends Seeder
                 'revoked' => 0,
                 'created_at' => now(),
                 'updated_at' => now(),
-            ]
-        );
+            ]);
+        }
+
+        // Check if oauth_personal_access_clients has the entry
+        $existingPersonalClient = DB::table('oauth_personal_access_clients')->where('client_id', 1)->first();
+        
+        if (!$existingPersonalClient) {
+            DB::table('oauth_personal_access_clients')->insert([
+                'client_id' => 1,
+                'provider' => 'users',
+            ]);
+        }
     }
 }
