@@ -43,7 +43,7 @@ class AuthService
 
         Log::info('Creating token for user', ['user_id' => $user->id]);
 
-        $token = $user->createToken('TSP Personal Access Token')->accessToken;
+        $token = $user->createToken('NextGen360 Personal Access Token')->accessToken;
 
         Log::info('Token created successfully', ['user_id' => $user->id]);
 

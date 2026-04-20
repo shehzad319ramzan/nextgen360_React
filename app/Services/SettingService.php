@@ -83,7 +83,7 @@ class SettingService
         $smtpUser = $this->settingRepo->get('smtp_user');
         $smtpPass = $this->settingRepo->get('smtp_pass');
         $notifyEmail = $this->settingRepo->get('notify_email');
-        $fromName = $this->settingRepo->get('from_name') ?? 'TSP Website';
+        $fromName = $this->settingRepo->get('from_name') ?? 'NextGen360 Website';
 
         if (!$smtpHost || !$smtpUser || !$notifyEmail) {
             throw new Exception('SMTP is not fully configured yet.', 400);
@@ -103,12 +103,12 @@ class SettingService
 <div style="font-family: Arial, sans-serif; max-width: 500px;">
     <h2 style="color: #0F4C8F;">Test Email</h2>
     <p>Your email settings are working correctly.</p>
-    <p style="color:#888; font-size:12px;">Sent from TSP Admin Panel</p>
+    <p style="color:#888; font-size:12px;">Sent from NextGen360 Admin Panel</p>
 </div>
 HTML;
 
         Mail::html($html, function ($message) use ($notifyEmail) {
-            $message->to($notifyEmail)->subject('TSP Admin — Test Email');
+            $message->to($notifyEmail)->subject('NextGen360 Admin — Test Email');
         });
 
         return ['message' => 'Test email sent successfully'];

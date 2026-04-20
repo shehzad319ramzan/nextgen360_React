@@ -78,7 +78,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'noreply@https://nextgen360.info'),
-        'name' => env('MAIL_FROM_NAME', 'TSP Website'),
+        'name' => env('MAIL_FROM_NAME', 'NextGen360 Website'),
     ],
 
 ];
