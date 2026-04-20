@@ -17,7 +17,7 @@ class PassportClientSeeder extends Seeder
             DB::table('oauth_clients')->insert([
                 'id' => 1,
                 'user_id' => null,
-                'name' => 'TSP Personal Access Client',
+                'name' => 'NextGen360 Personal Access Client',
                 'secret' => Str::random(40),
                 'provider' => 'users',
                 'redirect' => 'http://localhost',
