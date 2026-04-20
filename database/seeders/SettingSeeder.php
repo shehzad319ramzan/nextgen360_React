@@ -24,7 +24,7 @@ class SettingSeeder extends Seeder
 
             // Site Settings
             ['key' => 'site_phone', 'value' => '0115 990 3394'],
-            ['key' => 'site_email', 'value' => 'admin@tech-solutionspro.com'],
+            ['key' => 'site_email', 'value' => 'admin@https://nextgen360.info'],
             ['key' => 'site_address', 'value' => 'Nottingham UK'],
 
             // Social Media

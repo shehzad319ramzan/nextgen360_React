@@ -10,7 +10,7 @@ use Illuminate\Http\Response;
 class SitemapController extends Controller
 {
     private const SITE_URL_KEY = 'site_url';
-    private const DEFAULT_SITE_URL = 'https://tech-solutionspro.com';
+    private const DEFAULT_SITE_URL = 'https://https://nextgen360.info';
 
     private const STATIC_PAGES = [
         ['path' => '/', 'priority' => '1.0', 'changefreq' => 'weekly'],

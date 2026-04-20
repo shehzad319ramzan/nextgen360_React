@@ -92,7 +92,7 @@ class InquiryService
         <tr><td style="padding:8px; font-weight:bold; background:#f5f5f5;">Sub-Category</td><td style="padding:8px;">{$subCategory}</td></tr>
         <tr><td style="padding:8px; font-weight:bold; background:#f5f5f5; vertical-align:top;">Message</td><td style="padding:8px;">{$description}</td></tr>
     </table>
-    <p style="color:#888; font-size:12px; margin-top:20px;">Sent from tech-solutionspro.com contact form</p>
+    <p style="color:#888; font-size:12px; margin-top:20px;">Sent from https://nextgen360.info contact form</p>
 </div>
 HTML;
 

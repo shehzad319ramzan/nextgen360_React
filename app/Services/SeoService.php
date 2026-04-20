@@ -60,7 +60,7 @@ class SeoService
 
         $row = $this->settingRepo->get('robots_txt');
         $default = "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /api/\n\nSitemap: "
-            . config('app.url', 'https://tech-solutionspro.com') . '/sitemap.xml';
+            . config('app.url', 'https://https://nextgen360.info') . '/sitemap.xml';
 
         return $row ?? $default;
     }

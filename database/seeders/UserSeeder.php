@@ -12,7 +12,7 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         $admin = User::firstOrCreate(
-            ['email' => 'admin@tech-solutionspro.com'],
+            ['email' => 'admin@nextgen360.info'],
             [
                 'name' => 'Admin',
                 'password' => Hash::make('Admin@1234'),
@@ -24,7 +24,7 @@ class UserSeeder extends Seeder
         $admin->syncPermissions($allPerms);
 
         $seo = User::firstOrCreate(
-            ['email' => 'seo@tech-solutionspro.com'],
+            ['email' => 'seo@nextgen360.info'],
             [
                 'name' => 'SEO Manager',
                 'password' => Hash::make('Seo@1234'),
