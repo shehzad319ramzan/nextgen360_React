@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 
 class PassportClientSeeder extends Seeder
 {
@@ -17,7 +18,7 @@ class PassportClientSeeder extends Seeder
                 'id' => 1,
                 'user_id' => null,
                 'name' => 'TSP Personal Access Client',
-                'secret' => '',
+                'secret' => Str::random(40),
                 'provider' => 'users',
                 'redirect' => 'http://localhost',
                 'personal_access_client' => 1,
