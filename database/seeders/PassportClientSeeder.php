@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\OAuthClient;
 use Illuminate\Support\Facades\DB;
 
 class PassportClientSeeder extends Seeder
@@ -19,6 +18,8 @@ class PassportClientSeeder extends Seeder
                 'user_id' => null,
                 'name' => 'TSP Personal Access Client',
                 'secret' => '',
+                'provider' => 'users',
+                'redirect' => 'http://localhost',
                 'personal_access_client' => 1,
                 'password_client' => 0,
                 'revoked' => 0,
