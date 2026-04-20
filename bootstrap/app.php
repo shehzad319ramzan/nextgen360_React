@@ -13,6 +13,12 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->alias([
             'admin' => \App\Http\Middleware\RequireAdmin::class,
+            'cors' => \App\Http\Middleware\CorsMiddleware::class,
+            'api.logger' => \App\Http\Middleware\ApiRequestLogger::class,
+        ]);
+        $middleware->api(prepend: [
+            \App\Http\Middleware\CorsMiddleware::class,
+            \App\Http\Middleware\ApiRequestLogger::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {

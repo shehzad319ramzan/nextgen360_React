@@ -9,6 +9,7 @@ use App\Http\Requests\StoreUserRequest;
 use App\Services\AuthService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class AuthController extends Controller
 {
@@ -18,17 +19,33 @@ class AuthController extends Controller
 
     public function login(LoginRequest $request): JsonResponse
     {
+        Log::channel('daily')->info('Login attempt', [
+            'email' => $request->input('email'),
+            'ip' => $request->ip(),
+            'user_agent' => $request->header('User-Agent'),
+        ]);
+
         try {
             $result = $this->authService->login(
                 $request->input('email'),
                 $request->input('password')
             );
 
+            Log::channel('daily')->info('Login successful', [
+                'email' => $request->input('email'),
+                'user_id' => $result['user']->id ?? null,
+            ]);
+
             return response()->json([
                 'token' => $result['token'],
                 'user' => $result['user'],
             ]);
         } catch (\Exception $e) {
+            Log::channel('daily')->warning('Login failed', [
+                'email' => $request->input('email'),
+                'error' => $e->getMessage(),
+            ]);
+
             return response()->json(['error' => $e->getMessage()], 401);
         }
     }
