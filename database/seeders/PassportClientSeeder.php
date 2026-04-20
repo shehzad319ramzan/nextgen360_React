@@ -34,7 +34,6 @@ class PassportClientSeeder extends Seeder
         if (!$existingPersonalClient) {
             DB::table('oauth_personal_access_clients')->insert([
                 'client_id' => 1,
-                'provider' => 'users',
             ]);
         }
     }
