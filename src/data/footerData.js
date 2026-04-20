@@ -14,19 +14,19 @@ import EngagementIcon from "../assets/images/HeaderImgs/ServicesIcon06.svg";
 import SolutionsViewImg from "../assets/images/HeaderImgs/SolutionsViewImg.svg";
 
 export const footerContactBox = {
-    contactNumber: "01157950428",
-    email: "admin@tech-solutionspro.com",
+    contactNumber: "+92 310 2079608",
+    email: "admin@nextgen360.info",
     socialLinks: [
         {
-            href: "https://www.linkedin.com/company/tech-solutions-pro/",
+            href: "https://www.linkedin.com/company/nextgen360/",
             Icon: FaLinkedinIn,
         },
         {
-            href: "https://www.facebook.com/techsoltionspro?mibextid=ZbWKwL",
+            href: "https://www.facebook.com/nextgen360",
             Icon: FaFacebookF,
         },
         {
-            href: "https://www.instagram.com/https://nextgen360.net",
+            href: "https://www.instagram.com/nextgen360",
             Icon: FaInstagram,
         },
         {

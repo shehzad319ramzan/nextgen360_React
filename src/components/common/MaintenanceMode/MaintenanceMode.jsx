@@ -27,7 +27,7 @@ export default function MaintenanceMode({ children }) {
         <p className="text-blue-200 max-w-md text-sm leading-relaxed">
           NextGen360 is currently undergoing scheduled maintenance. We'll be back online shortly. Thank you for your patience.
         </p>
-        <p className="text-blue-300 text-xs mt-6">tech-solutionspro.com</p>
+        <p className="text-blue-300 text-xs mt-6">https://nextgen360.info</p>
       </div>
     );
   }

@@ -52,7 +52,7 @@ const CharCount = ({ value = "", min, max }) => {
 const SerpPreview = ({ title, description, url }) => (
   <div className="bg-white border rounded-xl p-4 mt-4">
     <p className="text-xs text-gray-400 uppercase tracking-wider mb-2 font-semibold">Google Preview</p>
-    <div className="text-sm text-gray-500 mb-0.5">{url || "https://tech-solutionspro.com"}</div>
+    <div className="text-sm text-gray-500 mb-0.5">{url || "https://https://nextgen360.info"}</div>
     <div className="text-[#1a0dab] text-lg font-medium leading-tight hover:underline cursor-pointer truncate">
       {title || <span className="text-gray-300 italic">No title set</span>}
     </div>
@@ -73,7 +73,7 @@ const SocialPreview = ({ title, description, image, url }) => (
       </div>
     )}
     <div className="p-3 border-t bg-gray-50">
-      <p className="text-xs text-gray-400 uppercase">{url || "tech-solutionspro.com"}</p>
+      <p className="text-xs text-gray-400 uppercase">{url || "https://nextgen360.info"}</p>
       <p className="font-semibold text-sm text-gray-800 mt-0.5 truncate">{title || "No title"}</p>
       <p className="text-xs text-gray-500 mt-0.5 line-clamp-2">{description || "No description"}</p>
     </div>
@@ -85,8 +85,8 @@ const SCHEMA_TEMPLATES = {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "NextGen360",
-    "url": "https://tech-solutionspro.com",
-    "logo": "https://tech-solutionspro.com/tsp.ico",
+    "url": "https://https://nextgen360.info",
+    "logo": "https://https://nextgen360.info/tsp.ico",
     "contactPoint": { "@type": "ContactPoint", "telephone": "+44-115-990-3394", "contactType": "customer service" },
     "address": { "@type": "PostalAddress", "streetAddress": "Unit 5D+E", "addressLocality": "Nottingham", "postalCode": "NG3 4GQ", "addressCountry": "GB" }
   }, null, 2),
@@ -94,19 +94,19 @@ const SCHEMA_TEMPLATES = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "NextGen360",
-    "image": "https://tech-solutionspro.com/og-image.jpg",
+    "image": "https://https://nextgen360.info/og-image.jpg",
     "telephone": "+44-115-990-3394",
     "address": { "@type": "PostalAddress", "streetAddress": "Unit 5D+E", "addressLocality": "Nottingham", "postalCode": "NG3 4GQ", "addressCountry": "GB" },
     "geo": { "@type": "GeoCoordinates", "latitude": 52.9548, "longitude": -1.1581 },
     "openingHours": "Mo-Fr 09:00-17:00",
-    "url": "https://tech-solutionspro.com"
+    "url": "https://https://nextgen360.info"
   }, null, 2),
   WebPage: JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Page Name",
     "description": "Page description",
-    "url": "https://tech-solutionspro.com/page"
+    "url": "https://https://nextgen360.info/page"
   }, null, 2),
   FAQPage: JSON.stringify({
     "@context": "https://schema.org",
@@ -302,7 +302,7 @@ export default function SEO() {
                         <input {...f("keywords")} placeholder="seo, digital marketing, web development" className={input} />
                       </Field>
                       <Field label="Canonical URL">
-                        <input {...f("canonical")} placeholder="https://tech-solutionspro.com/page" className={input} />
+                        <input {...f("canonical")} placeholder="https://https://nextgen360.info/page" className={input} />
                       </Field>
                     </>}
 
@@ -346,7 +346,7 @@ export default function SEO() {
                         </select>
                       </Field>
                       <Field label="Canonical URL">
-                        <input {...f("canonical")} placeholder="https://tech-solutionspro.com/page" className={input} />
+                        <input {...f("canonical")} placeholder="https://https://nextgen360.info/page" className={input} />
                       </Field>
                       <div className="bg-blue-50 rounded-lg p-3 text-xs text-blue-700 space-y-1">
                         <p className="font-semibold">Indexing Guide</p>
@@ -376,14 +376,14 @@ export default function SEO() {
                   {/* Right — previews */}
                   <div>
                     {(activeTab === "Basic SEO") && (
-                      <SerpPreview title={form.title} description={form.description} url={form.canonical || `https://tech-solutionspro.com${selected.page === "home" ? "" : `/${selected.page}`}`} />
+                      <SerpPreview title={form.title} description={form.description} url={form.canonical || `https://https://nextgen360.info${selected.page === "home" ? "" : `/${selected.page}`}`} />
                     )}
                     {(activeTab === "Open Graph" || activeTab === "Twitter Card") && (
                       <SocialPreview
                         title={form.og_title || form.title}
                         description={form.og_description || form.description}
                         image={form.og_image}
-                        url={`tech-solutionspro.com`}
+                        url={`https://nextgen360.info`}
                       />
                     )}
                     {activeTab === "Technical" && (

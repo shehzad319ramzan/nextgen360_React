@@ -309,7 +309,7 @@ export default function Settings() {
                   type="email"
                   value={emailForm.notify_email}
                   onChange={(e) => setEmailForm({ ...emailForm, notify_email: e.target.value })}
-                  placeholder="admin@tech-solutionspro.com"
+                  placeholder="example@test.com"
                   className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#388ECA] focus:border-transparent"
                 />
                 <p className="text-xs text-gray-400 mt-1">New inquiry notifications will be sent to this address</p>
@@ -454,7 +454,7 @@ export default function Settings() {
                     type="email"
                     value={siteForm.site_email}
                     onChange={(e) => setSiteForm({ ...siteForm, site_email: e.target.value })}
-                    placeholder="admin@tech-solutionspro.com"
+                    placeholder="example@test.com"
                     className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#388ECA] focus:border-transparent"
                   />
                 </div>

@@ -33,14 +33,14 @@ const heroImages = [
     front: C2S,
     right: C2R,
     left: C2L,
-    websiteLink : "https://tech-solutionspro.com/"
+    websiteLink : "https://https://nextgen360.info/"
   },
   {
     id: 3,
     front: C3S,
     right: C3R,
     left: C3L,
-    websiteLink : "https://tech-solutionspro.com/"
+    websiteLink : "https://https://nextgen360.info/"
   },
   {
     id: 4,

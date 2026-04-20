@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-const SITE_URL = "https://tech-solutionspro.com";
+const SITE_URL = "https://https://nextgen360.info";
 const BACKEND = import.meta.env.VITE_BACKEND_URL;
 
 function setMeta(name, content, attr = "name") {

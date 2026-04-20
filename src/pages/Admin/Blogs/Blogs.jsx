@@ -154,7 +154,7 @@ export default function Blogs() {
             {/* Google Preview */}
             <div className="bg-white border rounded-lg p-3 mt-2">
               <p className="text-[10px] text-gray-400 uppercase tracking-wider mb-1.5 font-semibold">Google Preview</p>
-              <p className="text-xs text-gray-500">tech-solutionspro.com/blog/...</p>
+              <p className="text-xs text-gray-500">https://nextgen360.info/blog/...</p>
               <p className="text-[#1a0dab] text-sm font-medium truncate hover:underline cursor-pointer">
                 {form.seo_title || form.title || "Blog post title"}
               </p>

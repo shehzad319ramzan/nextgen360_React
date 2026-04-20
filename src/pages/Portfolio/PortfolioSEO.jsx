@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { stripHtml } from "@/utils/html";
 
-const SITE_URL = "https://tech-solutionspro.com";
+const SITE_URL = "https://https://nextgen360.info";
 
 function setMeta(name, content, attr = "name") {
   let el = document.querySelector(`meta[${attr}="${name}"]`);

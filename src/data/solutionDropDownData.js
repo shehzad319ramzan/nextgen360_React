@@ -92,7 +92,7 @@ export const solutionDataArray = [
 
 {
   name: "EchoCRM",
-  websiteLink: "https://tech-solutionspro.com/",
+  websiteLink: "https://https://nextgen360.info/",
 
   section1: {
     title: "EchoCRM – The Best CRM for Your Business",
@@ -135,7 +135,7 @@ export const solutionDataArray = [
 },
 {
   name: "Yaranty",
-  websiteLink: "https://tech-solutionspro.com/",
+  websiteLink: "https://https://nextgen360.info/",
 
   section1: {
     title: "Yaranty: Your Go-To Solution for Warranty and Claim Management",
@@ -182,7 +182,7 @@ export const solutionDataArray = [
 
 {
   name: "NowSafar",
-  websiteLink: "https://tech-solutionspro.com/",
+  websiteLink: "https://https://nextgen360.info/",
 
   section1: {
     title: "Now Safar: The Smarter Way to Manage Visitors, Staff, and Contractors",

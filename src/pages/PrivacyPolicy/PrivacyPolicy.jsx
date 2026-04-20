@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
     const title = site.privacy_policy_title || "Privacy Policy";
     const updated = site.privacy_policy_updated || "April 2026";
     const content = site.privacy_policy_content || "";
-    const email = site.site_email || "admin@tech-solutionspro.com";
+    const email = site.site_email || "nextgen360.info";
     const phone = site.site_phone || "";
     const address = site.site_address || "";
 

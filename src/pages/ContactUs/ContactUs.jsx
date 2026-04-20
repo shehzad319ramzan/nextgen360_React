@@ -27,7 +27,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    detail: "admin@tech-solutionspro.com",
+    detail: "https://nextgen360.info",
     sub: "We reply within 24 hours",
   },
   {
