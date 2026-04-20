@@ -4,6 +4,7 @@ namespace App\Services;
 
 use App\Repositories\Interfaces\UserRepositoryInterface;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Log;
 use Spatie\Permission\Models\Permission;
 use Exception;
 
@@ -26,13 +27,25 @@ class AuthService
 
     public function login(string $email, string $password): array
     {
+        Log::info('Login attempt', ['email' => $email]);
+
         $user = $this->userRepo->findByEmail(strtolower($email));
 
-        if (!$user || !Hash::check($password, $user->password)) {
+        if (!$user) {
+            Log::warning('User not found', ['email' => $email]);
             throw new Exception('Invalid credentials', 401);
         }
 
+        if (!Hash::check($password, $user->password)) {
+            Log::warning('Password mismatch', ['email' => $email]);
+            throw new Exception('Invalid credentials', 401);
+        }
+
+        Log::info('Creating token for user', ['user_id' => $user->id]);
+
         $token = $user->createToken('TSP Personal Access Token')->accessToken;
+
+        Log::info('Token created successfully', ['user_id' => $user->id]);
 
         return [
             'token' => $token,
