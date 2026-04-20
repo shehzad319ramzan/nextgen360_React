@@ -18,7 +18,7 @@ class PassportClientSeeder extends Seeder
                 'user_id' => null,
                 'name' => 'TSP Personal Access Client',
                 'secret' => '',
-                // 'provider' => 'users',
+                'provider' => 'users',
                 'redirect' => 'http://localhost',
                 'personal_access_client' => 1,
                 'password_client' => 0,
